@@ -1,0 +1,28 @@
+/*#071422*/
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.carousel{
+    
+}
+
+#sobre-mi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+@media (max-width: 768px) {
+    #sobre-mi {
+      flex-direction: column; 
+      text-align: center; 
+    }
+  }
+
+.foto-perfil{
+    height: 300px;
+
+}
